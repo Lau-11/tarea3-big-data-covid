@@ -1,0 +1,14 @@
+# Datos (muy pesados para Git)
+*.csv
+*.parquet
+datos/
+
+# Spark / Python
+checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
